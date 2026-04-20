@@ -78,7 +78,7 @@ resource "aws_eks_node_group" "nodes" {
   
     subnet_ids = [
   
-  aws_subnet.public_11.id,
+  aws_subnet.public_1.id,
   aws_subnet.public_2.id
 ]
   
